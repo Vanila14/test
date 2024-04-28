@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Icon/Arrows" clip-path="url(#clip0_204_1076)">
+<path id="Vector 4" d="M3 27C3 27 25.5 45 34 54C42.7363 45 58.0808 33.0264 65 27L34 44.0816L3 27Z" fill="#0400DF"/>
+<path id="Vector 6" d="M3 8C3 8 25.5 26 34 35C42.7363 26 58.0808 14.0264 65 8L34 25.0816L3 8Z" fill="#0400DF"/>
+</g>
+<defs>
+<clipPath id="clip0_204_1076">
+<rect width="64" height="64" fill="white" transform="translate(0 64) rotate(-90)"/>
+</clipPath>
+</defs>
+</svg>
