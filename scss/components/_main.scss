@@ -1,0 +1,312 @@
+.container--content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 700px;
+
+}
+.content-wrapper__text {
+    color: #0200DF;
+    text-align: center;
+    font-family: "Futura LT";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+//==============================================================/
+
+.container--content-video {
+    display: flex;
+    justify-content: center;
+    padding-top: 124px;
+    padding-bottom:60px ;
+}
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+}
+.content-bg {
+    width: 900px;
+    height: 506px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #0400DF;
+}
+.content-bg_video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.content-column_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-column_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+//========================/
+
+.container--holder{
+    padding-bottom: 150px;
+}
+.holder-content {
+    display: flex;
+    gap:20px ;
+
+}
+.holder-content__box-1 {
+    width: 591px;
+    height: 537px;
+    padding: 30px;
+    border-radius: 20px;
+    border: 3px solid #0400DF;
+
+}
+.holder-content__text {
+    color: #0200DF;
+    font-family: "Futura LT";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 83.2px */
+}
+.holder-content__box-2 {
+    width: 590px;
+    height: 537px;
+    position: relative;
+    border-radius: 20px;
+    border: 3px solid #0400DF;
+    background-image: url(/content/mem.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 102%;
+}
+.holder-content__img-1 {
+    position: absolute;
+    width: 126px;
+    height: 126px;
+    left: 470px;
+    top: -50px;
+}
+.holder-content__img-2 {
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    left: 370px;
+    top: 133px;
+}
+//=================================/
+.container--bloc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:40px ;
+    padding-bottom: 150px;
+}
+.bloc {
+    max-width: 910px;
+    position: relative;
+}
+.bloc__text {
+    text-align: center;
+    font-family: "Futura LT";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 105.6px */
+    letter-spacing: 4.8px;
+    color: #0200DF;
+}
+.bloc__img {
+    position: absolute;
+    top: 3px;
+    left: 379px;
+    width: 174px;
+    height: 174px;
+}
+
+.bloc__cards {
+    display: flex;
+    gap: 20px ;
+
+}
+.bloc__card {
+    width: 285px;
+    height: 285px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 3px solid #0400DF;
+}
+.bloc__card--1 {
+    background-image: url(/content/toasded.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 101%;
+}
+.bloc__card--2 {
+    background-image: url(/content/loaded.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 101%;
+}
+.bloc__card--3 {
+    background-image: url(/content/oated.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 101%;
+}
+.bloc__card--4 {
+    padding: 10px;
+    background: #EE9CFB;
+}
+.bloc__card-text {
+    font-family: "Futura LT";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #0200DF;
+}
+//==========================================/
+
+.container--page {
+    padding: 0px 20px 150px;
+
+}
+.wrapper-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.wrapper-page__text {
+    color: #0200DF;
+    font-family: "Futura LT";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    text-align: center;
+}
+.wrapper-page__grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    gap: 20px;
+}
+.wrapper-page__grid-card{
+    border-radius: 15px;
+    border: 3px solid #0400DF;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper-page-card__emoji {
+    width: 64px;
+    height: 64px;
+
+}
+.wrapper-page-card__text {
+    color: #FFF;
+
+    text-align: center;
+    -webkit-text-stroke-width: 3;
+    -webkit-text-stroke-color: #0400DF;
+    font-family: Playball;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 96px */
+}
+
+.wrapper-page-card__text--2{
+    font-size: 40px;
+}
+.wrapper-page-card__text--3{
+    font-size: 40px;
+}
+
+
+.wrapper-page__grid-card--1 {
+    height: 600px;
+    background-image: url(/content/Gifs/Silly_affirmation_gif\ 1.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    grid-column: 1 / 3;
+}
+
+.wrapper-page__grid-card--2 {
+    height: 300px;
+    background-image: url(/content/Gifs/Silly_affirmation_gif\ 2.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+
+}
+.wrapper-page__grid-card--3 {
+    height: 300px;
+    background-image: url(/content/Gifs/Silly_affirmation_gif\ 3.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+}
+.wrapper-page__grid-card--4 {
+    height: 600px;
+    background-image: url(/content/Gifs/Silly_affirmation_gif\ 4.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    grid-column: 1 / 3;
+}
+//=====================================//
+.container--box {
+    padding-bottom: 225px;
+}
+.wrapper-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+}
+.wrapper-box__text {
+    color: #0200DF;
+    text-align: center;
+    font-family: "Futura LT";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%; /* 83.2px */
+}
+.wrapper-box__img {
+    position: relative;
+    width: 1200px;
+    height: 770px;
+    border-radius: 20px;
+    border: 3px solid #0400DF;
+    background-image: url(/content/silly_billy_meme.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+
+}
+.wrapper-box__img-1 {
+    position: absolute;
+    bottom: -70px;
+    left: 500px;
+    border-radius: 22px;
+
+}
