@@ -1,0 +1,27 @@
+.footer{
+    padding-bottom: 10px;
+    position: relative;
+}
+
+
+.footer__backroud{
+    width: 100%;
+    height:700px;
+    background-image:url(../content/bg-footer.svg) ;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: -2;
+}
+.footer__backroud--mobail{
+    display: none;
+    width: 100%;
+    height:700px;
+    background-image:url(../content/footer.svg) ;
+    background-repeat: no-repeat;
+    background-position: center 390px;
+    position: absolute;
+    bottom: 0px;
+    z-index: -2;
+}
