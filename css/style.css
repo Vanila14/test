@@ -113,7 +113,7 @@ html {
       flex-shrink: 0;
 }
 
-.header-wrspper {
+.header-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -127,7 +127,7 @@ html {
   gap: 30px;
 }
 
-.header-wrspper__cat {
+.header-wrapper__cat {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,16 +141,16 @@ html {
   position: relative;
 }
 
-.header-wrspper__cat-img {
+.header-wrapper__cat-img {
   width: 360px;
   height: 490px;
 }
 
-.header-wrspper__lightning {
+.header-wrapper__lightning {
   position: absolute;
 }
 
-.header-wrspper_lightning--1 {
+.header-wrapper_lightning--1 {
   width: 200px;
   height: 200px;
   position: absolute;
@@ -161,7 +161,7 @@ html {
           transform: scale(-1, 1);
 }
 
-.header-wrspper_lightning--2 {
+.header-wrapper_lightning--2 {
   width: 200px;
   height: 200px;
   position: absolute;
@@ -169,7 +169,7 @@ html {
   top: 0px;
 }
 
-.header-wrspper_lightning--3 {
+.header-wrapper_lightning--3 {
   width: 150px;
   height: 150px;
   position: absolute;
@@ -180,7 +180,7 @@ html {
           transform: scale(-1, 1);
 }
 
-.header-wrspper_lightning--4 {
+.header-wrapper_lightning--4 {
   width: 150px;
   height: 150px;
   position: absolute;
@@ -188,7 +188,7 @@ html {
   top: 315px;
 }
 
-.header-wrspper__icon {
+.header-wrapper__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -410,7 +410,7 @@ html {
   position: relative;
   border-radius: 20px;
   border: 3px solid #0400DF;
-  background-image: url(/content/mem.jpg);
+  background-image: url(../content/mem.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 102% 102%;
@@ -492,21 +492,21 @@ html {
 }
 
 .bloc__card--1 {
-  background-image: url(/content/toasded.jpg);
+  background-image: url(../content/toasded.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 101% 101%;
 }
 
 .bloc__card--2 {
-  background-image: url(/content/loaded.jpg);
+  background-image: url(../content/loaded.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 101% 101%;
 }
 
 .bloc__card--3 {
-  background-image: url(/content/oated.jpg);
+  background-image: url(../content/oated.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 101% 101%;
@@ -605,7 +605,7 @@ html {
 
 .wrapper-page__grid-card--1 {
   height: 600px;
-  background-image: url(/content/Gifs/Silly_affirmation_gif\ 1.gif);
+  background-image: url(../content/Gifs/Silly_affirmation_gif\ 1.gif);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
@@ -614,7 +614,7 @@ html {
 
 .wrapper-page__grid-card--2 {
   height: 300px;
-  background-image: url(/content/Gifs/Silly_affirmation_gif\ 2.gif);
+  background-image: url(../content/Gifs/Silly_affirmation_gif\ 2.gif);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
@@ -622,7 +622,7 @@ html {
 
 .wrapper-page__grid-card--3 {
   height: 300px;
-  background-image: url(/content/Gifs/Silly_affirmation_gif\ 3.gif);
+  background-image: url(../content/Gifs/Silly_affirmation_gif\ 3.gif);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
@@ -630,7 +630,7 @@ html {
 
 .wrapper-page__grid-card--4 {
   height: 600px;
-  background-image: url(/content/Gifs/Silly_affirmation_gif\ 4.gif);
+  background-image: url(../content/Gifs/Silly_affirmation_gif\ 4.gif);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
@@ -674,7 +674,7 @@ html {
   height: 770px;
   border-radius: 20px;
   border: 3px solid #0400DF;
-  background-image: url(/content/silly_billy_meme.jpg);
+  background-image: url(../content/silly_billy_meme.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100% 100%;
@@ -861,22 +861,22 @@ html {
     display: flex;
     gap: 20px;
   }
-  .header-wrspper_lightning--1 {
+  .header-wrapper_lightning--1 {
     width: 150px;
     height: 150px;
     right: 155px;
   }
-  .header-wrspper_lightning--2 {
+  .header-wrapper_lightning--2 {
     width: 150px;
     height: 150px;
     left: 155px;
   }
-  .header-wrspper_lightning--3 {
+  .header-wrapper_lightning--3 {
     width: 100px;
     height: 100px;
     right: 100px;
   }
-  .header-wrspper_lightning--4 {
+  .header-wrapper_lightning--4 {
     width: 100px;
     height: 100px;
     left: 100px;
@@ -935,7 +935,7 @@ html {
   .background--mobail {
     display: block;
   }
-  .header-wrspper {
+  .header-wrapper {
     height: 600px;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -943,32 +943,32 @@ html {
     padding-top: 50px;
     gap: 40px;
   }
-  .header-wrspper__cat-img {
+  .header-wrapper__cat-img {
     width: 270px;
     height: 367.5px;
   }
-  .header-wrspper_lightning--1 {
+  .header-wrapper_lightning--1 {
     position: absolute;
     width: 100px;
     height: 100px;
     top: -50px;
     right: 80px;
   }
-  .header-wrspper_lightning--2 {
+  .header-wrapper_lightning--2 {
     width: 100px;
     height: 100px;
     top: -50px;
     left: 80px;
   }
-  .header-wrspper_lightning--3 {
-    -webkit-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+  .header-wrapper_lightning--3 {
+    -webkit-transform: scale(-1, 1) rotate(90deg);
+        -ms-transform: scale(-1, 1) rotate(90deg);
+            transform: scale(-1, 1) rotate(90deg);
     width: 100px;
     height: 100px;
     right: 80px;
   }
-  .header-wrspper_lightning--4 {
+  .header-wrapper_lightning--4 {
     -webkit-transform: scale(-1, -1);
         -ms-transform: scale(-1, -1);
             transform: scale(-1, -1);
@@ -1006,7 +1006,7 @@ html {
   .header {
     padding-bottom: 30px;
   }
-  .header-wrspper {
+  .header-wrapper {
     gap: 140px;
   }
   .content-wrapper__text {
