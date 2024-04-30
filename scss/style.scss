@@ -163,22 +163,22 @@ html{
     }
 
     //===============//
-    .header-wrspper_lightning--1 {
+    .header-wrapper_lightning--1 {
         width: 150px;
         height: 150px;
         right:155px ;
     }
-    .header-wrspper_lightning--2 {
+    .header-wrapper_lightning--2 {
         width: 150px;
         height: 150px;
         left: 155px;
     }
-    .header-wrspper_lightning--3 {
+    .header-wrapper_lightning--3 {
         width: 100px;
         height: 100px;
         right: 100px;
     }
-    .header-wrspper_lightning--4 {
+    .header-wrapper_lightning--4 {
         width: 100px;
         height: 100px;
         left:100px ;
@@ -245,36 +245,36 @@ html{
     }
 
 
-    .header-wrspper{
+    .header-wrapper{
         height: 600px;
         justify-content: start ;
         padding-top: 50px;
         gap: 40px;
     }
-    .header-wrspper__cat-img{
+    .header-wrapper__cat-img{
         width: 270px;
         height: 367.5px;
     }
-    .header-wrspper_lightning--1 {
+    .header-wrapper_lightning--1 {
         position: absolute;
         width: 100px;
         height: 100px;
         top: -50px;
         right:80px ;
     }
-    .header-wrspper_lightning--2 {
+    .header-wrapper_lightning--2 {
         width: 100px;
         height: 100px;
         top: -50px;
         left: 80px;
     }
-    .header-wrspper_lightning--3 {
-        transform: rotate(-90deg);
+    .header-wrapper_lightning--3 {
+        transform: scale(-1, 1) rotate(90deg);
         width: 100px;
         height: 100px;
         right: 80px;
     }
-    .header-wrspper_lightning--4 {
+    .header-wrapper_lightning--4 {
         transform: scale(-1, -1);
         transform: rotate(90deg);
         width: 100px;
@@ -312,7 +312,7 @@ html{
     .header{
         padding-bottom: 30px;
     }
-    .header-wrspper{
+    .header-wrapper{
         gap: 140px;
     }
     .content-wrapper__text{
